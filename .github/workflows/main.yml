@@ -1,134 +1,55 @@
-name: RDP + Tailscale + RustDesk + (Optional) Chrome Remote Desktop (A)
+- name: Launch RustDesk + Screenshot + Upload to GoFile
+  shell: pwsh
+  run: |
+    # ---------- Locate RustDesk safely ----------
+    $rdExe = @(
+      "C:\Program Files\RustDesk\RustDesk.exe"
+      "C:\Program Files\RustDesk\rustdesk.exe"
+      "$env:LOCALAPPDATA\Programs\RustDesk\rustdesk.exe"
+    ) | Where-Object { Test-Path $_ } | Select-Object -First 1
 
-on:
-  workflow_dispatch:
-    inputs:
-      ts_tailnet:         { description: "Tailscale tailnet (e.g. you@gmail.com)", required: true }
-      ts_api_key:         { description: "Tailscale API key (device admin, no Bearer)", required: true }
-      ts_authkey:         { description: "Tailscale Auth key (reusable or ephemeral)", required: true }
-      quick_test:         { description: "Run 5-minute test", type: boolean, default: false }
-      runtime_minutes:    { description: "Runtime (max 360; default 355 when not test)", required: false, default: "355" }
-      do_purge:           { description: "Purge bullet* devices at start (single instance only)", required: false, default: "true" }
-      cycles:             { description: "0=stop after A; N=handoffs left incl this run", required: false, default: "0" }
-      rdp_count:          { description: "How many RDP instances (1-10) [ignored if CRD provided]", required: false, default: "1" }
-      crd_code:
-        description: >-
-          Paste raw CRD code (4/0AV...), full PowerShell command, or text/URL containing --code="4/...".
-        required: false
-        default: ""
-      crd_pin:
-        description: "CRD PIN (6–12 digits)."
-        required: false
-        default: "123456"
+    if (-not $rdExe) {
+      $cmd = Get-Command rustdesk.exe -ErrorAction SilentlyContinue
+      if ($cmd) { $rdExe = $cmd.Source }
+    }
 
-permissions:
-  contents: read
-  actions: write
+    if (-not $rdExe) {
+      Write-Error "RustDesk executable not found"
+      exit 1
+    }
 
-defaults:
-  run:
-    shell: pwsh
+    Write-Host "RustDesk found at: $rdExe"
 
-jobs:
-  setup:
-    runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.mk.outputs.matrix }}
-      multi:  ${{ steps.mk.outputs.multi }}
-    steps:
-      - id: mk
-        run: |
-          $crd = @'
-          ${{ inputs.crd_code }}
-          '@.Trim()
+    # ---------- Launch RustDesk ----------
+    Start-Process -FilePath $rdExe -ErrorAction SilentlyContinue
+    Start-Sleep -Seconds 5
 
-          if ($crd.Length -gt 0) { $n = 1 } else {
-            $n = [int]"${{ inputs.rdp_count }}"
-            if ($n -lt 1) { $n = 1 }
-            if ($n -gt 10) { $n = 10 }
-          }
+    # ---------- Screenshot ----------
+    $img = "$env:TEMP\rustdesk_${{ matrix.id }}.png"
 
-          $inc = @()
-          for ($i=1; $i -le $n; $i++){ $inc += @{ id = $i } }
+    Add-Type -AssemblyName System.Windows.Forms
+    Add-Type -AssemblyName System.Drawing
 
-          $json = @{ include = $inc } | ConvertTo-Json -Compress
-          "matrix=$json" | Out-File $env:GITHUB_OUTPUT -Append
+    $bounds = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
+    $bmp = New-Object System.Drawing.Bitmap $bounds.Width, $bounds.Height
+    $gfx = [System.Drawing.Graphics]::FromImage($bmp)
+    $gfx.CopyFromScreen($bounds.Location, [System.Drawing.Point]::Empty, $bounds.Size)
+    $bmp.Save($img, [System.Drawing.Imaging.ImageFormat]::Png)
+    $gfx.Dispose()
+    $bmp.Dispose()
 
-          $multi = if ($n -gt 1) { '1' } else { '0' }
-          "multi=$multi" | Out-File $env:GITHUB_OUTPUT -Append
+    Write-Host "Screenshot saved: $img"
 
-  rdp:
-    needs: setup
-    runs-on: windows-latest
-    strategy:
-      matrix: ${{ fromJson(needs.setup.outputs.matrix) }}
-      max-parallel: 10
-    timeout-minutes: 370
+    # ---------- Upload to GoFile ----------
+    $resp = Invoke-RestMethod `
+      -Uri "https://store1.gofile.io/uploadFile" `
+      -Method Post `
+      -Form @{ file = Get-Item $img }
 
-    env:
-      RDP_USER: Bullettemporary
-      RDP_PASS: Bullet@12345
-
-    steps:
-      - name: Set CRD flag
-        run: |
-          $crd = @'
-          ${{ inputs.crd_code }}
-          '@.Trim()
-
-          if ($crd.Length -gt 0) {
-            "CRD_ENABLED=1" | Out-File -Append $env:GITHUB_ENV
-          } else {
-            "CRD_ENABLED=0" | Out-File -Append $env:GITHUB_ENV
-          }
-
-      # ---------------- RustDesk + Screenshot + Upload ----------------
-      - name: Launch RustDesk + Screenshot + Upload to GoFile
-        run: |
-          $rdExe = "C:\Program Files\RustDesk\rustdesk.exe"
-          if (-not (Test-Path $rdExe)) {
-            Write-Error "RustDesk not installed"
-            exit 1
-          }
-
-          Start-Process -FilePath $rdExe -ErrorAction SilentlyContinue
-          Start-Sleep -Seconds 5
-
-          $img = "$env:TEMP\rustdesk_${{ matrix.id }}.png"
-
-          Add-Type -AssemblyName System.Windows.Forms
-          Add-Type -AssemblyName System.Drawing
-
-          $bounds = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
-          $bmp = New-Object System.Drawing.Bitmap $bounds.Width, $bounds.Height
-          $gfx = [System.Drawing.Graphics]::FromImage($bmp)
-          $gfx.CopyFromScreen($bounds.Location, [System.Drawing.Point]::Empty, $bounds.Size)
-          $bmp.Save($img, [System.Drawing.Imaging.ImageFormat]::Png)
-          $gfx.Dispose()
-          $bmp.Dispose()
-
-          $resp = Invoke-RestMethod `
-            -Uri "https://store1.gofile.io/uploadFile" `
-            -Method Post `
-            -Form @{ file = Get-Item $img }
-
-          if ($resp.status -eq "ok") {
-            "SCREENSHOT_URL=$($resp.data.downloadPage)" | Out-File -Append $env:GITHUB_ENV
-            Write-Host "Screenshot URL: $($resp.data.downloadPage)"
-          } else {
-            Write-Error "Upload failed"
-            exit 1
-          }
-
-      # ---------------- Keep Alive ----------------
-      - name: Keep alive
-        run: |
-          $mins = [int]"${{ inputs.runtime_minutes }}"
-          if ("${{ inputs.quick_test }}" -eq "true") { $mins = 5 }
-          if ($mins -gt 360) { $mins = 355 }
-
-          $end = (Get-Date).AddMinutes($mins)
-          while ((Get-Date) -lt $end) {
-            Write-Host "Heartbeat $(Get-Date -Format HH:mm:ss) | Screenshot: $env:SCREENSHOT_URL"
-            Start-Sleep -Seconds 60
-          }
+    if ($resp.status -eq "ok") {
+      "SCREENSHOT_URL=$($resp.data.downloadPage)" | Out-File -Append $env:GITHUB_ENV
+      Write-Host "Screenshot URL: $($resp.data.downloadPage)"
+    } else {
+      Write-Error "Upload failed"
+      exit 1
+    }
