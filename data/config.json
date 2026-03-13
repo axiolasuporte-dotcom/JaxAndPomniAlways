@@ -1,0 +1,58 @@
+{
+  "logsChannelId": "1465795615354257582",
+  "whitelist": [
+    "1467666380932251720",
+    "938226662485659648",
+    "1343643639993073676",
+    "1412367394005061745",
+    "1243245469572796527"
+  ],
+  "blacklist": [],
+  "owners": [
+    "1467666380932251720"
+  ],
+  "configManagers": [
+    "1467666380932251720"
+  ],
+  "features": {
+    "logsEnabled": true,
+    "webhookEnabled": true,
+    "autoModEnabled": true
+  },
+  "language": "pt-BR",
+  "security": {
+    "antiRaid": {
+      "enabled": false,
+      "threshold": 10,
+      "timeWindow": 60,
+      "action": "lockdown"
+    },
+    "antiSpam": {
+      "enabled": true,
+      "messageThreshold": 5,
+      "timeWindow": 10,
+      "mentionLimit": 5,
+      "warningsBeforeMute": 2,
+      "muteDuration": 5
+    },
+    "botProtection": {
+      "enabled": false,
+      "autoban": true,
+      "revokeInviter": true
+    },
+    "lockdown": {
+      "active": false,
+      "channels": [],
+      "reason": null
+    },
+    "warnings": {},
+    "securityLogs": []
+  },
+  "globalWhitelist": true,
+  "serverBlacklist": [
+    "1470175572691779766",
+    "1465164618136817807",
+    "1455988750847971350",
+    "1397593679442739382"
+  ]
+}

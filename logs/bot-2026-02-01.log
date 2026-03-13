@@ -1,0 +1,63 @@
+[2026-02-01T23:51:33.336Z] [INFO] ✅ Comando carregado: blame
+[2026-02-01T23:51:33.340Z] [INFO] ✅ Comando carregado: gping
+[2026-02-01T23:51:33.342Z] [INFO] ✅ Comando carregado: invite
+[2026-02-01T23:51:33.345Z] [INFO] ✅ Comando carregado: panel
+[2026-02-01T23:51:33.347Z] [INFO] ✅ Comando carregado: raid
+[2026-02-01T23:51:33.348Z] [INFO] ✅ Comando carregado: say
+[2026-02-01T23:51:33.349Z] [INFO] ✅ Comando carregado: spam
+[2026-02-01T23:51:33.350Z] [INFO] ✅ Comando carregado: test
+[2026-02-01T23:51:33.351Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-02-01T23:51:33.352Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-02-01T23:51:33.354Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-02-01T23:51:33.355Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-02-01T23:51:33.356Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-02-01T23:51:33.357Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-02-01T23:51:33.358Z] [INFO] 📡 Evento carregado: clientReady
+[2026-02-01T23:51:33.358Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-02-01T23:51:33.669Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-02-01T23:51:34.090Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-02-01T23:51:34.090Z] [INFO] 📊 Conectado em 1 servidor(es)
+[2026-02-01T23:51:34.091Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-02-01T23:51:34.091Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-02-01T23:51:34.963Z] [INFO] ✅ Comando carregado: blame
+[2026-02-01T23:51:34.966Z] [INFO] ✅ Comando carregado: gping
+[2026-02-01T23:51:34.967Z] [INFO] ✅ Comando carregado: invite
+[2026-02-01T23:51:34.968Z] [INFO] ✅ Comando carregado: panel
+[2026-02-01T23:51:34.970Z] [INFO] ✅ Comando carregado: raid
+[2026-02-01T23:51:34.971Z] [INFO] ✅ Comando carregado: say
+[2026-02-01T23:51:34.972Z] [INFO] ✅ Comando carregado: spam
+[2026-02-01T23:51:34.973Z] [INFO] ✅ Comando carregado: test
+[2026-02-01T23:51:34.974Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-02-01T23:51:34.975Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-02-01T23:51:34.976Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-02-01T23:51:34.976Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-02-01T23:51:34.977Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-02-01T23:51:34.978Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-02-01T23:51:34.979Z] [INFO] 📡 Evento carregado: clientReady
+[2026-02-01T23:51:34.979Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-02-01T23:51:35.298Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-02-01T23:51:35.654Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-02-01T23:51:35.654Z] [INFO] 📊 Conectado em 1 servidor(es)
+[2026-02-01T23:51:35.655Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-02-01T23:51:35.655Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-02-01T23:53:43.900Z] [INFO] ✅ Comando carregado: blame
+[2026-02-01T23:53:43.912Z] [INFO] ✅ Comando carregado: gping
+[2026-02-01T23:53:43.917Z] [INFO] ✅ Comando carregado: invite
+[2026-02-01T23:53:43.919Z] [INFO] ✅ Comando carregado: panel
+[2026-02-01T23:53:43.921Z] [INFO] ✅ Comando carregado: raid
+[2026-02-01T23:53:43.923Z] [INFO] ✅ Comando carregado: say
+[2026-02-01T23:53:43.925Z] [INFO] ✅ Comando carregado: spam
+[2026-02-01T23:53:43.926Z] [INFO] ✅ Comando carregado: test
+[2026-02-01T23:53:43.927Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-02-01T23:53:43.930Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-02-01T23:53:43.931Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-02-01T23:53:43.933Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-02-01T23:53:43.933Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-02-01T23:53:43.934Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-02-01T23:53:43.935Z] [INFO] 📡 Evento carregado: clientReady
+[2026-02-01T23:53:43.935Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-02-01T23:53:44.281Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-02-01T23:53:44.615Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-02-01T23:53:44.615Z] [INFO] 📊 Conectado em 1 servidor(es)
+[2026-02-01T23:53:44.615Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-02-01T23:53:44.615Z] [SUCCESS] 🚀 Bot pronto para uso!

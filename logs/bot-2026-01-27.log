@@ -1,0 +1,415 @@
+[2026-01-27T20:59:25.587Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T20:59:25.593Z] [INFO] ✅ Comando carregado: config
+[2026-01-27T20:59:25.596Z] [INFO] ✅ Comando carregado: edit
+[2026-01-27T20:59:25.600Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T20:59:25.603Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T20:59:25.606Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T20:59:25.609Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T20:59:25.612Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T20:59:25.615Z] [INFO] ✅ Comando carregado: security
+[2026-01-27T20:59:25.618Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T20:59:25.621Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T20:59:25.625Z] [INFO] ✅ Comando carregado: whitelist
+[2026-01-27T20:59:25.629Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T20:59:25.631Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T20:59:25.633Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T20:59:25.637Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T20:59:25.639Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T20:59:25.642Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T20:59:25.642Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T20:59:26.793Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T20:59:27.280Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T20:59:27.280Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T20:59:27.281Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T20:59:27.282Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T21:16:50.317Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T21:16:50.321Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T21:16:50.322Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T21:16:50.324Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T21:16:50.326Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T21:16:50.328Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T21:16:50.329Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T21:16:50.330Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T21:16:50.331Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T21:16:50.333Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:16:50.334Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:17:06.206Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T21:17:06.209Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T21:17:06.210Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T21:17:06.212Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T21:17:06.213Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T21:17:06.215Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T21:17:06.216Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T21:17:06.217Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T21:17:06.219Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T21:17:06.220Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:17:06.221Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:17:06.224Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T21:17:06.225Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T21:17:06.225Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T21:17:06.226Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T21:17:06.226Z] [ERROR] ❌ Erro ao registrar comandos: Expected token to be set for this request, but none was present
+[2026-01-27T21:17:06.227Z] [ERROR] ❌ Erro ao fazer login: An invalid token was provided.
+[2026-01-27T21:20:18.614Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T21:20:18.617Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T21:20:18.618Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T21:20:18.620Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T21:20:18.622Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T21:20:18.623Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T21:20:18.625Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T21:20:18.626Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T21:20:18.627Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T21:20:18.628Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:20:18.630Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:20:18.632Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T21:20:18.633Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T21:20:18.634Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T21:20:18.634Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T21:20:18.952Z] [ERROR] ❌ Erro ao registrar comandos: Unknown Application
+[2026-01-27T21:20:19.650Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T21:20:19.650Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T21:20:19.652Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T21:20:19.653Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T21:21:40.743Z] [WARN] ⚠️  Comando não encontrado: whitelist
+[2026-01-27T21:23:41.290Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T21:23:41.349Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T21:23:41.354Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T21:23:41.356Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T21:23:41.358Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T21:23:41.360Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T21:23:41.361Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T21:23:41.362Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T21:23:41.364Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T21:23:41.365Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:23:41.366Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:23:41.368Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T21:23:41.370Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T21:23:41.370Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T21:23:41.371Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T21:23:42.258Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T21:23:43.194Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T21:23:43.194Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T21:23:43.195Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T21:23:43.195Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T21:24:11.367Z] [INFO] Comando: panel | Executor: axiyt (1392042410212855821) | DM
+[2026-01-27T21:24:11.506Z] [ERROR] ❌ Erro ao enviar log detalhada: Unknown Channel
+[2026-01-27T21:32:30.012Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T21:32:30.018Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T21:32:30.020Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T21:32:30.025Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T21:32:30.028Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T21:32:30.029Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T21:32:30.031Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T21:32:30.032Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T21:32:30.033Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T21:32:30.035Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:32:30.037Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:32:30.040Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T21:32:30.041Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T21:32:30.042Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T21:32:30.042Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T21:32:30.043Z] [ERROR] ❌ Erro ao registrar comandos: Expected token to be set for this request, but none was present
+[2026-01-27T21:32:30.043Z] [ERROR] ❌ Erro ao fazer login: An invalid token was provided.
+[2026-01-27T21:34:59.260Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T21:34:59.267Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T21:34:59.269Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T21:34:59.272Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T21:34:59.276Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T21:34:59.279Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T21:34:59.281Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T21:34:59.282Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T21:34:59.284Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T21:34:59.286Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:34:59.287Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:34:59.292Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T21:34:59.294Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T21:34:59.294Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T21:34:59.295Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T21:34:59.597Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T21:35:00.221Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T21:35:00.221Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T21:35:00.221Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T21:35:00.221Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T21:35:19.140Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T21:35:19.142Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T21:35:19.143Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T21:35:19.145Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T21:35:19.147Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T21:35:19.148Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T21:35:19.149Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T21:35:19.150Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T21:35:19.151Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T21:35:19.152Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:35:19.153Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:35:19.155Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T21:35:19.156Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T21:35:19.156Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T21:35:19.156Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T21:35:19.450Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T21:35:19.988Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T21:35:19.988Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T21:35:19.988Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T21:35:19.989Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T21:37:47.479Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T21:37:47.482Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T21:37:47.483Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T21:37:47.485Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T21:37:47.487Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T21:37:47.488Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T21:37:47.489Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T21:37:47.490Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T21:37:47.491Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T21:37:47.493Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:37:47.494Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:37:47.495Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T21:37:47.496Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T21:37:47.497Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T21:37:47.497Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T21:37:47.857Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T21:37:48.356Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T21:37:48.356Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T21:37:48.356Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T21:37:48.357Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T21:44:24.225Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T21:44:24.228Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T21:44:24.228Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T21:44:24.230Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T21:44:24.231Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T21:44:24.232Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T21:44:24.233Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T21:44:24.233Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T21:44:24.234Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T21:44:24.235Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:44:24.236Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T21:44:24.238Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T21:44:24.239Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T21:44:24.239Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T21:44:24.239Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T21:44:24.648Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T21:44:25.258Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T21:44:25.258Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T21:44:25.259Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T21:44:25.259Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T22:21:19.444Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T22:21:19.450Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T22:21:19.452Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T22:21:19.455Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T22:21:19.463Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T22:21:19.469Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T22:21:19.475Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T22:21:19.476Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T22:21:19.480Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T22:21:19.483Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T22:21:19.485Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T22:21:19.489Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T22:21:19.491Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T22:21:19.492Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T22:21:19.492Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T22:21:19.848Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T22:21:20.741Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T22:21:20.742Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T22:21:20.742Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T22:21:20.742Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T22:21:33.793Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T22:21:33.797Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T22:21:33.798Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T22:21:33.800Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T22:21:33.802Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T22:21:33.803Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T22:21:33.804Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T22:21:33.805Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T22:21:33.806Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T22:21:33.807Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T22:21:33.808Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T22:21:33.810Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T22:21:33.811Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T22:21:33.812Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T22:21:33.812Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T22:21:34.119Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T22:21:34.595Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T22:21:34.595Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T22:21:34.596Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T22:21:34.596Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T22:35:29.930Z] [INFO] Comando: blame | Executor: shakabadwin (1209343058345205880) | DM | Alvo: vitorporr (1318959619325820928)
+[2026-01-27T22:35:30.086Z] [ERROR] ❌ Erro ao executar comando blame: Unknown interaction
+[2026-01-27T22:35:30.094Z] [ERROR] ❌ Erro ao enviar log detalhada: Unknown Channel
+[2026-01-27T22:35:30.228Z] [ERROR] ❌ Uncaught exception: DiscordAPIError[40060]: Interaction has already been acknowledged.
+[2026-01-27T22:44:02.687Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T22:44:02.692Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T22:44:02.694Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T22:44:02.696Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T22:44:02.698Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T22:44:02.700Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T22:44:02.701Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T22:44:02.702Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T22:44:02.704Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T22:44:02.705Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T22:44:02.707Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T22:44:02.709Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T22:44:02.711Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T22:44:02.711Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T22:44:02.711Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T22:59:14.958Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T22:59:14.961Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T22:59:14.961Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T22:59:14.963Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T22:59:14.964Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T22:59:14.965Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T22:59:14.966Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T22:59:14.967Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T22:59:14.968Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T22:59:14.969Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T22:59:14.970Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T22:59:14.971Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T22:59:14.972Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T22:59:14.973Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T22:59:14.973Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T23:14:41.326Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T23:14:41.328Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T23:14:41.329Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T23:14:41.330Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T23:14:41.332Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T23:14:41.333Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T23:14:41.334Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T23:14:41.334Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T23:14:41.335Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T23:14:41.336Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:14:41.337Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:14:41.338Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T23:14:41.339Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T23:14:41.339Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T23:14:41.340Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T23:15:01.133Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T23:15:01.136Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T23:15:01.137Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T23:15:01.138Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T23:15:01.140Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T23:15:01.141Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T23:15:01.142Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T23:15:01.143Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T23:15:01.144Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T23:15:01.145Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:15:01.145Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:15:01.147Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T23:15:01.148Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T23:15:01.148Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T23:15:01.149Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T23:16:08.425Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T23:16:09.017Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T23:16:09.017Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T23:16:09.018Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T23:16:09.018Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T23:19:35.973Z] [INFO] Comando: raid | Executor: axiyt (1392042410212855821) | DM
+[2026-01-27T23:19:36.123Z] [ERROR] ❌ Erro ao enviar log detalhada: Unknown Channel
+[2026-01-27T23:21:12.101Z] [INFO] Comando: say | Executor: axiyt (1392042410212855821) | DM | Conteúdo: .
+[2026-01-27T23:21:12.277Z] [ERROR] ❌ Erro ao enviar log detalhada: Unknown Channel
+[2026-01-27T23:21:22.489Z] [INFO] Comando: spam | Executor: axiyt (1392042410212855821) | DM | Conteúdo: try
+[2026-01-27T23:21:22.682Z] [ERROR] ❌ Erro ao enviar log detalhada: Unknown Channel
+[2026-01-27T23:21:33.550Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T23:21:33.552Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T23:21:33.553Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T23:21:33.555Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T23:21:33.556Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T23:21:33.557Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T23:21:33.558Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T23:21:33.558Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T23:21:33.559Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T23:21:33.560Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:21:33.561Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:21:33.563Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T23:21:33.563Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T23:21:33.564Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T23:21:33.564Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T23:21:33.869Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T23:21:34.392Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T23:21:34.393Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T23:21:34.393Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T23:21:34.393Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T23:22:10.649Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T23:22:10.653Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T23:22:10.654Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T23:22:10.657Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T23:22:10.659Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T23:22:10.661Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T23:22:10.662Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T23:22:10.664Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T23:22:10.665Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T23:22:10.666Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:22:10.667Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:22:10.669Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T23:22:10.669Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T23:22:10.670Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T23:22:10.670Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T23:22:11.161Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T23:22:11.771Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T23:22:11.772Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T23:22:11.772Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T23:22:11.772Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T23:28:27.121Z] [INFO] Comando: raid | Executor: axiyt (1392042410212855821) | DM
+[2026-01-27T23:28:27.255Z] [ERROR] ❌ Erro ao executar comando raid: Unknown interaction
+[2026-01-27T23:28:27.280Z] [ERROR] ❌ Erro ao enviar log detalhada: Unknown Channel
+[2026-01-27T23:28:27.386Z] [ERROR] ❌ Uncaught exception: DiscordAPIError[10062]: Unknown interaction
+[2026-01-27T23:31:00.355Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T23:31:00.358Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T23:31:00.360Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T23:31:00.362Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T23:31:00.365Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T23:31:00.366Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T23:31:00.367Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T23:31:00.369Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T23:31:00.370Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T23:31:00.372Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:31:00.373Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:31:00.375Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T23:31:00.376Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T23:31:00.377Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T23:31:00.377Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T23:31:00.688Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T23:31:01.241Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T23:31:01.242Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T23:31:01.242Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T23:31:01.242Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T23:37:08.189Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T23:37:08.195Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T23:37:08.196Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T23:37:08.199Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T23:37:08.205Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T23:37:08.206Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T23:37:08.208Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T23:37:08.209Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T23:37:08.210Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T23:37:08.212Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:37:08.213Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:37:08.215Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T23:37:08.216Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T23:37:08.216Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T23:37:08.217Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T23:37:08.769Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T23:37:09.297Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T23:37:09.298Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T23:37:09.298Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T23:37:09.298Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T23:56:39.467Z] [INFO] ✅ Comando carregado: blame
+[2026-01-27T23:56:39.473Z] [INFO] ✅ Comando carregado: gping
+[2026-01-27T23:56:39.474Z] [INFO] ✅ Comando carregado: invite
+[2026-01-27T23:56:39.476Z] [INFO] ✅ Comando carregado: panel
+[2026-01-27T23:56:39.479Z] [INFO] ✅ Comando carregado: raid
+[2026-01-27T23:56:39.480Z] [INFO] ✅ Comando carregado: say
+[2026-01-27T23:56:39.482Z] [INFO] ✅ Comando carregado: spam
+[2026-01-27T23:56:39.482Z] [INFO] ✅ Comando carregado: test
+[2026-01-27T23:56:39.484Z] [INFO] 📡 Evento carregado: channelDelete
+[2026-01-27T23:56:39.485Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:56:39.486Z] [INFO] 📡 Evento carregado: guildMemberAdd
+[2026-01-27T23:56:39.489Z] [INFO] 📡 Evento carregado: interactionCreate
+[2026-01-27T23:56:39.490Z] [INFO] 📡 Evento carregado: messageCreate
+[2026-01-27T23:56:39.491Z] [INFO] 📡 Evento carregado: clientReady
+[2026-01-27T23:56:39.491Z] [INFO] 🔄 Iniciando registro de comandos slash...
+[2026-01-27T23:56:39.888Z] [SUCCESS] ✅ Comandos slash registrados com sucesso!
+[2026-01-27T23:56:40.451Z] [SUCCESS] ✅ Bot online como Orion#8305!
+[2026-01-27T23:56:40.451Z] [INFO] 📊 Conectado em 0 servidor(es)
+[2026-01-27T23:56:40.451Z] [SUCCESS] 🎮 Status configurado com sucesso
+[2026-01-27T23:56:40.451Z] [SUCCESS] 🚀 Bot pronto para uso!
+[2026-01-27T23:59:35.559Z] [INFO] Comando: raid | Executor: axiyt (1392042410212855821) | DM
+[2026-01-27T23:59:35.702Z] [ERROR] ❌ Erro ao executar comando raid: Unknown interaction
+[2026-01-27T23:59:35.740Z] [ERROR] ❌ Erro ao enviar log detalhada: Unknown Channel
+[2026-01-27T23:59:35.835Z] [ERROR] ❌ Uncaught exception: DiscordAPIError[40060]: Interaction has already been acknowledged.

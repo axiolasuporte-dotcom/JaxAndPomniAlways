@@ -1,0 +1,120 @@
+[2026-02-15T22:29:57.627Z] [INFO] ✅ Command loaded: blame
+[2026-02-15T22:29:57.787Z] [INFO] ✅ Command loaded: gping
+[2026-02-15T22:29:57.788Z] [INFO] ✅ Command loaded: invite
+[2026-02-15T22:29:57.790Z] [INFO] ✅ Command loaded: panel
+[2026-02-15T22:29:57.793Z] [INFO] ✅ Command loaded: raid
+[2026-02-15T22:29:57.795Z] [INFO] ✅ Command loaded: say
+[2026-02-15T22:29:57.796Z] [INFO] ✅ Command loaded: spam
+[2026-02-15T22:29:57.797Z] [INFO] ✅ Command loaded: test
+[2026-02-15T22:29:57.798Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T22:29:57.800Z] [INFO] 📡 Event loaded: channelDelete
+[2026-02-15T22:29:57.802Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T22:29:57.803Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T22:29:57.805Z] [INFO] 📡 Event loaded: interactionCreate
+[2026-02-15T22:29:57.807Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T22:29:57.808Z] [INFO] 📡 Event loaded: clientReady
+[2026-02-15T22:29:57.808Z] [INFO] 🔄 Starting slash command registration...
+[2026-02-15T22:29:58.012Z] [ERROR] ❌ Error registering commands: Unknown Application
+[2026-02-15T22:29:58.732Z] [SUCCESS] ✅ Bot online as Orion#8305!
+[2026-02-15T22:29:58.732Z] [INFO] 📊 Connected to 4 server(s)
+[2026-02-15T22:29:58.733Z] [SUCCESS] 🎮 Status configured successfully
+[2026-02-15T22:29:58.733Z] [SUCCESS] 🚀 Bot ready for use!
+[2026-02-15T22:44:41.001Z] [INFO] ✅ Command loaded: blame
+[2026-02-15T22:44:41.003Z] [INFO] ✅ Command loaded: gping
+[2026-02-15T22:44:41.004Z] [INFO] ✅ Command loaded: invite
+[2026-02-15T22:44:41.005Z] [INFO] ✅ Command loaded: panel
+[2026-02-15T22:44:41.005Z] [INFO] ✅ Command loaded: raid
+[2026-02-15T22:44:41.007Z] [INFO] ✅ Command loaded: say
+[2026-02-15T22:44:41.008Z] [INFO] ✅ Command loaded: spam
+[2026-02-15T22:44:41.008Z] [INFO] ✅ Command loaded: test
+[2026-02-15T22:44:41.010Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T22:44:41.011Z] [INFO] 📡 Event loaded: channelDelete
+[2026-02-15T22:44:41.011Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T22:44:41.012Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T22:44:41.013Z] [INFO] 📡 Event loaded: interactionCreate
+[2026-02-15T22:44:41.014Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T22:44:41.014Z] [INFO] 📡 Event loaded: clientReady
+[2026-02-15T22:44:41.015Z] [INFO] 🔄 Starting slash command registration...
+[2026-02-15T22:44:41.293Z] [ERROR] ❌ Error registering commands: Unknown Application
+[2026-02-15T22:44:41.882Z] [SUCCESS] ✅ Bot online as Orion#8305!
+[2026-02-15T22:44:41.883Z] [INFO] 📊 Connected to 4 server(s)
+[2026-02-15T22:44:41.883Z] [SUCCESS] 🎮 Status configured successfully
+[2026-02-15T22:44:41.883Z] [SUCCESS] 🚀 Bot ready for use!
+[2026-02-15T23:13:21.301Z] [INFO] ✅ Command loaded: blame
+[2026-02-15T23:13:21.304Z] [INFO] ✅ Command loaded: gping
+[2026-02-15T23:13:21.305Z] [INFO] ✅ Command loaded: invite
+[2026-02-15T23:13:21.307Z] [INFO] ✅ Command loaded: panel
+[2026-02-15T23:13:21.307Z] [INFO] ✅ Command loaded: raid
+[2026-02-15T23:13:21.309Z] [INFO] ✅ Command loaded: say
+[2026-02-15T23:13:21.310Z] [INFO] ✅ Command loaded: spam
+[2026-02-15T23:13:21.311Z] [INFO] ✅ Command loaded: test
+[2026-02-15T23:13:21.312Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T23:13:21.313Z] [INFO] 📡 Event loaded: channelDelete
+[2026-02-15T23:13:21.314Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T23:13:21.315Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T23:13:21.316Z] [INFO] 📡 Event loaded: interactionCreate
+[2026-02-15T23:13:21.318Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T23:13:21.319Z] [INFO] 📡 Event loaded: clientReady
+[2026-02-15T23:13:21.319Z] [INFO] 🔄 Starting slash command registration...
+[2026-02-15T23:13:21.606Z] [ERROR] ❌ Error registering commands: Unknown Application
+[2026-02-15T23:13:22.240Z] [SUCCESS] ✅ Bot online as Orion#8305!
+[2026-02-15T23:13:22.240Z] [INFO] 📊 Connected to 4 server(s)
+[2026-02-15T23:13:22.241Z] [SUCCESS] 🎮 Status configured successfully
+[2026-02-15T23:13:22.241Z] [SUCCESS] 🚀 Bot ready for use!
+[2026-02-15T23:30:40.631Z] [INFO] ✅ Command loaded: blame
+[2026-02-15T23:30:40.632Z] [INFO] ✅ Command loaded: blame
+[2026-02-15T23:30:40.677Z] [INFO] ✅ Command loaded: gping
+[2026-02-15T23:30:40.677Z] [INFO] ✅ Command loaded: gping
+[2026-02-15T23:30:40.678Z] [INFO] ✅ Command loaded: invite
+[2026-02-15T23:30:40.678Z] [INFO] ✅ Command loaded: invite
+[2026-02-15T23:30:40.680Z] [INFO] ✅ Command loaded: panel
+[2026-02-15T23:30:40.680Z] [INFO] ✅ Command loaded: panel
+[2026-02-15T23:30:40.681Z] [INFO] ✅ Command loaded: raid
+[2026-02-15T23:30:40.681Z] [INFO] ✅ Command loaded: raid
+[2026-02-15T23:30:40.682Z] [INFO] ✅ Command loaded: say
+[2026-02-15T23:30:40.682Z] [INFO] ✅ Command loaded: say
+[2026-02-15T23:30:40.684Z] [INFO] ✅ Command loaded: spam
+[2026-02-15T23:30:40.684Z] [INFO] ✅ Command loaded: spam
+[2026-02-15T23:30:40.685Z] [INFO] ✅ Command loaded: test
+[2026-02-15T23:30:40.685Z] [INFO] ✅ Command loaded: test
+[2026-02-15T23:30:40.687Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T23:30:40.687Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T23:30:40.689Z] [INFO] 📡 Event loaded: channelDelete
+[2026-02-15T23:30:40.689Z] [INFO] 📡 Event loaded: channelDelete
+[2026-02-15T23:30:40.690Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T23:30:40.690Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T23:30:40.691Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T23:30:40.692Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T23:30:40.693Z] [INFO] 📡 Event loaded: interactionCreate
+[2026-02-15T23:30:40.694Z] [INFO] 📡 Event loaded: interactionCreate
+[2026-02-15T23:30:40.696Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T23:30:40.696Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T23:30:40.696Z] [INFO] 📡 Event loaded: clientReady
+[2026-02-15T23:30:40.696Z] [INFO] 🔄 Starting slash command registration...
+[2026-02-15T23:30:40.697Z] [INFO] 📡 Event loaded: clientReady
+[2026-02-15T23:30:40.697Z] [INFO] 🔄 Starting slash command registration...
+[2026-02-15T23:30:40.917Z] [ERROR] ❌ Error registering commands: Unknown Application
+[2026-02-15T23:30:40.925Z] [ERROR] ❌ Error registering commands: Unknown Application
+[2026-02-15T23:30:41.562Z] [SUCCESS] ✅ Bot online as Orion#8305!
+[2026-02-15T23:30:41.562Z] [INFO] 📊 Connected to 4 server(s)
+[2026-02-15T23:30:41.562Z] [SUCCESS] 🎮 Status configured successfully
+[2026-02-15T23:30:41.563Z] [SUCCESS] 🚀 Bot ready for use!
+[2026-02-15T23:30:42.866Z] [SUCCESS] ✅ Bot online as Orion#8305!
+[2026-02-15T23:30:42.866Z] [INFO] 📊 Connected to 4 server(s)
+[2026-02-15T23:30:42.867Z] [SUCCESS] 🎮 Status configured successfully
+[2026-02-15T23:30:42.867Z] [SUCCESS] 🚀 Bot ready for use!
+[2026-02-15T23:48:06.066Z] [INFO] ✅ Command loaded: blame
+[2026-02-15T23:48:06.153Z] [INFO] ✅ Command loaded: gping
+[2026-02-15T23:48:06.154Z] [INFO] ✅ Command loaded: invite
+[2026-02-15T23:48:06.155Z] [INFO] ✅ Command loaded: panel
+[2026-02-15T23:48:06.156Z] [INFO] ✅ Command loaded: raid
+[2026-02-15T23:48:06.158Z] [INFO] ✅ Command loaded: say
+[2026-02-15T23:48:06.160Z] [INFO] ✅ Command loaded: spam
+[2026-02-15T23:48:06.161Z] [INFO] ✅ Command loaded: test
+[2026-02-15T23:48:06.162Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T23:48:06.165Z] [INFO] 📡 Event loaded: channelDelete
+[2026-02-15T23:48:06.166Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T23:48:06.167Z] [INFO] 📡 Event loaded: guildMemberAdd
+[2026-02-15T23:48:06.169Z] [INFO] 📡 Event loaded: interactionCreate
+[2026-02-15T23:48:06.171Z] [INFO] 📡 Event loaded: messageCreate
+[2026-02-15T23:48:06.172Z] [INFO] 📡 Event loaded: clientReady
