@@ -1,55 +1,89 @@
-- name: Launch RustDesk + Screenshot + Upload to GoFile
-  shell: pwsh
-  run: |
-    # ---------- Locate RustDesk safely ----------
-    $rdExe = @(
-      "C:\Program Files\RustDesk\RustDesk.exe"
-      "C:\Program Files\RustDesk\rustdesk.exe"
-      "$env:LOCALAPPDATA\Programs\RustDesk\rustdesk.exe"
-    ) | Where-Object { Test-Path $_ } | Select-Object -First 1
+name: Discord Bot Runner (resilient)
 
-    if (-not $rdExe) {
-      $cmd = Get-Command rustdesk.exe -ErrorAction SilentlyContinue
-      if ($cmd) { $rdExe = $cmd.Source }
-    }
+on:
+  workflow_dispatch:
 
-    if (-not $rdExe) {
-      Write-Error "RustDesk executable not found"
-      exit 1
-    }
+permissions:
+  actions: write
+  contents: read
 
-    Write-Host "RustDesk found at: $rdExe"
+jobs:
+  bot:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 355
 
-    # ---------- Launch RustDesk ----------
-    Start-Process -FilePath $rdExe -ErrorAction SilentlyContinue
-    Start-Sleep -Seconds 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    # ---------- Screenshot ----------
-    $img = "$env:TEMP\rustdesk_${{ matrix.id }}.png"
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
 
-    Add-Type -AssemblyName System.Windows.Forms
-    Add-Type -AssemblyName System.Drawing
+      - name: Install deps
+        run: npm install
 
-    $bounds = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
-    $bmp = New-Object System.Drawing.Bitmap $bounds.Width, $bounds.Height
-    $gfx = [System.Drawing.Graphics]::FromImage($bmp)
-    $gfx.CopyFromScreen($bounds.Location, [System.Drawing.Point]::Empty, $bounds.Size)
-    $bmp.Save($img, [System.Drawing.Imaging.ImageFormat]::Png)
-    $gfx.Dispose()
-    $bmp.Dispose()
+      # Script que reinicia o bot se ele cair
+      - name: Create runner script
+        run: |
+          cat << 'EOF' > run-bot.sh
+          #!/usr/bin/env bash
+          set -e
 
-    Write-Host "Screenshot saved: $img"
+          echo "Starting bot supervisor..."
 
-    # ---------- Upload to GoFile ----------
-    $resp = Invoke-RestMethod `
-      -Uri "https://store1.gofile.io/uploadFile" `
-      -Method Post `
-      -Form @{ file = Get-Item $img }
+          while true; do
+            echo "Launching bot..."
+            node index.js
+            EXIT_CODE=$?
 
-    if ($resp.status -eq "ok") {
-      "SCREENSHOT_URL=$($resp.data.downloadPage)" | Out-File -Append $env:GITHUB_ENV
-      Write-Host "Screenshot URL: $($resp.data.downloadPage)"
-    } else {
-      Write-Error "Upload failed"
-      exit 1
-    }
+            echo "Bot exited with code $EXIT_CODE"
+            echo "Restarting in 5 seconds..."
+            sleep 5
+          done
+          EOF
+
+          chmod +x run-bot.sh
+
+      - name: Start bot
+        env:
+          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+        run: |
+          nohup ./run-bot.sh > bot.log 2>&1 &
+          echo $! > bot.pid
+          echo "Bot PID:"
+          cat bot.pid
+
+      - name: Show live log (background)
+        run: |
+          nohup bash -c 'tail -f bot.log' &
+
+      - name: Keep alive (~5h45)
+        run: |
+          for i in $(seq 1 345); do
+            echo "Bot running minute $i"
+            sleep 60
+          done
+
+      - name: Dispatch next run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Starting next workflow run..."
+          gh api repos/${{ github.repository }}/actions/workflows/bot.yml/dispatches \
+            -X POST \
+            -f ref="${{ github.ref_name }}"
+
+      - name: Grace period
+        run: |
+          echo "Waiting 45s for new runner to start..."
+          sleep 45
+
+      - name: Stop bot
+        run: |
+          if [ -f bot.pid ]; then
+            kill "$(cat bot.pid)" || true
+          fi
