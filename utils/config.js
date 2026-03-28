@@ -14,7 +14,7 @@ const DEFAULT_CONFIG = {
   logsChannelId: null,
   whitelist: [],
   blacklist: [],
-  owners: ['1480038102545338380'], // IDs dos owners do bot
+  owners: ['1467666380932251720'], // IDs dos owners do bot
   globalWhitelist: false, // Se true, todos têm acesso. Se false, apenas na whitelist.
   configManagers: [], // IDs que podem gerenciar configurações
   serverBlacklist: [], // IDs de servidores que não podem ser nukados
